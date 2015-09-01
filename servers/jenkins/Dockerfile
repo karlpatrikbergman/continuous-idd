@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER Viktor Farcic, "viktor@farcic.com"
+MAINTAINER Patrik Bergman, "patrik_bergman@yahoo.com"
 
 RUN echo deb http://archive.ubuntu.com/ubuntu precise universe >> /etc/apt/sources.list
 RUN apt-get update && apt-get clean
