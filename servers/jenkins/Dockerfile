@@ -5,7 +5,7 @@ MAINTAINER Patrik Bergman, "patrik_bergman@yahoo.com"
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -q -y \
 	wget \
 	unzip \
-	openjdk-8-jre \
+	openjdk-8-jdk \
 	git
 
 ENV GRADLE_VERSION 2.7
